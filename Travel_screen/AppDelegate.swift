@@ -13,7 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+//        let backButtonBackgroundImage = UIImage(named: "NavigationBar_BackButton")
+//        let barAppearance = UINavigationBar.appearance(whenContainedInInstancesOf: [ViewController.self])
+//        barAppearance.backIndicatorImage = backButtonBackgroundImage
+//        barAppearance.backIndicatorTransitionMaskImage = backButtonBackgroundImage
+//        
+//        let barButtonAppearance = UIBarButtonItem.appearance(whenContainedInInstancesOf: [ViewController.self])
+//        barButtonAppearance.setBackButtonTitlePositionAdjustment(UIOffset(horizontal: 0, vertical: -5), for: .default)
+
         return true
     }
 

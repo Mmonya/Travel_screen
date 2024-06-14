@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F53A27EC2C19E2510092FF53 /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27EB2C19E2510092FF53 /* ProfileDetailViewController.swift */; };
+		F53A27FA2C1A11A00092FF53 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */; };
+		F53A27FE2C1B25910092FF53 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27FD2C1B25910092FF53 /* RoundImageView.swift */; };
+		F57979C42C1B5D7B00BF4D85 /* TopCornersRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */; };
+		F5ADBE472C1C92CA00FE5791 /* CountryListSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ADBE462C1C92CA00FE5791 /* CountryListSectionHeaderView.swift */; };
+		F5ADBE492C1C92D900FE5791 /* CountryListSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5ADBE482C1C92D900FE5791 /* CountryListSectionHeaderView.xib */; };
 		F5C722A32C19C80E0078B5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C722A22C19C80E0078B5CF /* AppDelegate.swift */; };
 		F5C722A52C19C80E0078B5CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C722A42C19C80E0078B5CF /* SceneDelegate.swift */; };
-		F5C722A72C19C80E0078B5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C722A62C19C80E0078B5CF /* ViewController.swift */; };
 		F5C722AA2C19C80E0078B5CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5C722A92C19C80E0078B5CF /* Base */; };
 		F5C722AC2C19C80F0078B5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C722AB2C19C80F0078B5CF /* Assets.xcassets */; };
 		F5C722AF2C19C80F0078B5CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5C722AE2C19C80F0078B5CF /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F53A27EB2C19E2510092FF53 /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
+		F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F53A27FD2C1B25910092FF53 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCornersRoundView.swift; sourceTree = "<group>"; };
+		F5ADBE462C1C92CA00FE5791 /* CountryListSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListSectionHeaderView.swift; sourceTree = "<group>"; };
+		F5ADBE482C1C92D900FE5791 /* CountryListSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListSectionHeaderView.xib; sourceTree = "<group>"; };
 		F5C7229F2C19C80E0078B5CF /* Travel_screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel_screen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C722A22C19C80E0078B5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C722A42C19C80E0078B5CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5C722A62C19C80E0078B5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5C722A92C19C80E0078B5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5C722AB2C19C80F0078B5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C722AE2C19C80F0078B5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +68,12 @@
 			children = (
 				F5C722A22C19C80E0078B5CF /* AppDelegate.swift */,
 				F5C722A42C19C80E0078B5CF /* SceneDelegate.swift */,
-				F5C722A62C19C80E0078B5CF /* ViewController.swift */,
+				F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */,
+				F53A27EB2C19E2510092FF53 /* ProfileDetailViewController.swift */,
+				F53A27FD2C1B25910092FF53 /* RoundImageView.swift */,
+				F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */,
+				F5ADBE462C1C92CA00FE5791 /* CountryListSectionHeaderView.swift */,
+				F5ADBE482C1C92D900FE5791 /* CountryListSectionHeaderView.xib */,
 				F5C722A82C19C80E0078B5CF /* Main.storyboard */,
 				F5C722AB2C19C80F0078B5CF /* Assets.xcassets */,
 				F5C722AD2C19C80F0078B5CF /* LaunchScreen.storyboard */,
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5ADBE492C1C92D900FE5791 /* CountryListSectionHeaderView.xib in Resources */,
 				F5C722AC2C19C80F0078B5CF /* Assets.xcassets in Resources */,
 				F5C722AF2C19C80F0078B5CF /* Base in Resources */,
 				F5C722AA2C19C80E0078B5CF /* Base in Resources */,
@@ -138,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C722A72C19C80E0078B5CF /* ViewController.swift in Sources */,
+				F53A27FE2C1B25910092FF53 /* RoundImageView.swift in Sources */,
+				F5ADBE472C1C92CA00FE5791 /* CountryListSectionHeaderView.swift in Sources */,
 				F5C722A32C19C80E0078B5CF /* AppDelegate.swift in Sources */,
+				F53A27EC2C19E2510092FF53 /* ProfileDetailViewController.swift in Sources */,
+				F53A27FA2C1A11A00092FF53 /* ProfileViewController.swift in Sources */,
+				F57979C42C1B5D7B00BF4D85 /* TopCornersRoundView.swift in Sources */,
 				F5C722A52C19C80E0078B5CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -313,7 +333,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,7 +365,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
