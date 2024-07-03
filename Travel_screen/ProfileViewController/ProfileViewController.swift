@@ -8,8 +8,9 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-//    weak var delegate: ProfileViewControllerDelegate?
-    
+    typealias ViewModel = ProfileViewModel
+    var viewModel: ViewModel?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,13 +23,12 @@ class ProfileViewController: UIViewController {
     }
     
     func showProfileDetailViewController() {
-        let viewControllerToPresent = UIStoryboard(name: "Main", bundle: nil)
-            .instantiateViewController<ProfileDetailViewController>(identifier: "ProfileDetailViewControllerStoryboardID", creator: nil)
+        let viewControllerToPresent = ProfileDetailViewController.instantiateFromStoryboard()
         if let sheet = viewControllerToPresent.sheetPresentationController {
             sheet.detents = [.medium(), .threeQuarters()]
             sheet.largestUndimmedDetentIdentifier = .threeQuarters
-//            sheet.containerView
         }
+        viewControllerToPresent.viewModel = ViewModelsFactory.shared.profileDetailViewModel()
         viewControllerToPresent.isModalInPresentation = true
         present(viewControllerToPresent, animated: false, completion: nil)
     }
