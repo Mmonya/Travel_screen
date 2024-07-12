@@ -6,8 +6,9 @@
 //
 
 import MapKit
+import CoreLocation
 
-struct CountryInfo {
+struct CountryInfo: Identifiable, Codable {
     let id = UUID()
     var regionIdentifier: String
     var flag: String
@@ -16,12 +17,7 @@ struct CountryInfo {
     func localizedName(for locale: Locale = Locale.current) -> String {
         locale.localizedString(forRegionCode: regionIdentifier) ?? ""
     }
-}
 
-extension CountryInfo: Identifiable {
-}
-
-extension CountryInfo: Codable {
     enum CodingKeys: String, CodingKey {
         case regionIdentifier
         case flag
@@ -42,3 +38,4 @@ extension CountryInfo: Codable {
         try container.encode(centerCoordinate, forKey: .centerCoordinate)
     }
 }
+

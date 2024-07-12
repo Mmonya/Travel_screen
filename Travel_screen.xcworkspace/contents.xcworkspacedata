@@ -4,4 +4,7 @@
    <FileRef
       location = "container:Travel_screen.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CountryInfoCreater.playground">
+   </FileRef>
 </Workspace>

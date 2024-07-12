@@ -21,18 +21,34 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fko-AS-CFZ">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <hybridMapConfiguration key="preferredConfiguration"/>
+                                <connections>
+                                    <outlet property="delegate" destination="8YB-jA-3rN" id="njZ-rW-4QT"/>
+                                </connections>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J96-gX-7dS">
+                                <rect key="frame" x="0.0" y="59" width="53.333333333333336" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="test"/>
+                                <connections>
+                                    <action selector="testAction:" destination="8YB-jA-3rN" eventType="touchUpInside" id="j92-Yi-hz5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XFJ-sy-01y"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Fko-AS-CFZ" secondAttribute="trailing" id="mMS-Vz-c0p"/>
-                            <constraint firstAttribute="bottom" secondItem="Fko-AS-CFZ" secondAttribute="bottom" id="ogP-p0-fpT"/>
-                            <constraint firstItem="Fko-AS-CFZ" firstAttribute="top" secondItem="L20-3V-DmN" secondAttribute="top" id="otX-63-7GX"/>
-                            <constraint firstItem="Fko-AS-CFZ" firstAttribute="leading" secondItem="L20-3V-DmN" secondAttribute="leading" id="uXe-Cs-hg9"/>
+                            <constraint firstItem="J96-gX-7dS" firstAttribute="top" secondItem="XFJ-sy-01y" secondAttribute="top" id="0sF-0k-kXD"/>
+                            <constraint firstItem="J96-gX-7dS" firstAttribute="leading" secondItem="XFJ-sy-01y" secondAttribute="leading" id="9Mt-9y-gpa"/>
+                            <constraint firstItem="XFJ-sy-01y" firstAttribute="trailing" secondItem="Fko-AS-CFZ" secondAttribute="trailing" id="RGM-a4-Cme"/>
+                            <constraint firstItem="Fko-AS-CFZ" firstAttribute="bottom" secondItem="XFJ-sy-01y" secondAttribute="bottom" constant="34" id="lOx-Ei-AKb"/>
+                            <constraint firstItem="Fko-AS-CFZ" firstAttribute="leading" secondItem="XFJ-sy-01y" secondAttribute="leading" id="ndM-un-ypt"/>
+                            <constraint firstItem="XFJ-sy-01y" firstAttribute="top" secondItem="Fko-AS-CFZ" secondAttribute="top" constant="59" id="uY2-rs-vOX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WFS-Na-SgS"/>
+                    <connections>
+                        <outlet property="mapView" destination="Fko-AS-CFZ" id="Lqg-dF-7lr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3h-ok-lEr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

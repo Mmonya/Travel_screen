@@ -10,6 +10,13 @@
 		F53A27EC2C19E2510092FF53 /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27EB2C19E2510092FF53 /* ProfileDetailViewController.swift */; };
 		F53A27FA2C1A11A00092FF53 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */; };
 		F53A27FE2C1B25910092FF53 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53A27FD2C1B25910092FF53 /* RoundImageView.swift */; };
+		F53F6BDA2C36EA500010B62A /* UISheetPresentationControllerDetentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53F6BD92C36EA500010B62A /* UISheetPresentationControllerDetentExtension.swift */; };
+		F56EE8782C3C0571004AF500 /* CountryAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE8772C3C0571004AF500 /* CountryAnnotationView.swift */; };
+		F56EE87A2C3C202D004AF500 /* CountryPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE8792C3C202D004AF500 /* CountryPinView.swift */; };
+		F56EE87D2C3C203F004AF500 /* CountryPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56EE87C2C3C203F004AF500 /* CountryPinView.xib */; };
+		F56EE87F2C3C27AB004AF500 /* ViewNibInstantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE87E2C3C27AB004AF500 /* ViewNibInstantiation.swift */; };
+		F56EE8812C3C372E004AF500 /* CountryAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE8802C3C372E004AF500 /* CountryAnnotation.swift */; };
+		F56EE8832C3D9E21004AF500 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EE8822C3D9E21004AF500 /* CLLocationCoordinate2DExtension.swift */; };
 		F57979C42C1B5D7B00BF4D85 /* TopCornersRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */; };
 		F5ADBE472C1C92CA00FE5791 /* ProfileCountryListSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ADBE462C1C92CA00FE5791 /* ProfileCountryListSectionHeaderView.swift */; };
 		F5ADBE492C1C92D900FE5791 /* ProfileCountryListSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5ADBE482C1C92D900FE5791 /* ProfileCountryListSectionHeaderView.xib */; };
@@ -29,6 +36,7 @@
 		F5ADBE882C2C7AA800FE5791 /* ProfileDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ADBE872C2C7AA800FE5791 /* ProfileDetailViewModel.swift */; };
 		F5ADBE8A2C2DD4F800FE5791 /* ProfileCountryListShowHideMoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ADBE892C2DD4F800FE5791 /* ProfileCountryListShowHideMoreTableViewCell.swift */; };
 		F5ADBE8C2C331AF900FE5791 /* ProfileCountryListHintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ADBE8B2C331AF900FE5791 /* ProfileCountryListHintTableViewCell.swift */; };
+		F5B4CBEE2C40304600BF4E2F /* NSDataAssetNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B4CBED2C40304600BF4E2F /* NSDataAssetNameExtension.swift */; };
 		F5C722A32C19C80E0078B5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C722A22C19C80E0078B5CF /* AppDelegate.swift */; };
 		F5C722A52C19C80E0078B5CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C722A42C19C80E0078B5CF /* SceneDelegate.swift */; };
 		F5C722AA2C19C80E0078B5CF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5C722A92C19C80E0078B5CF /* Base */; };
@@ -40,6 +48,13 @@
 		F53A27EB2C19E2510092FF53 /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
 		F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F53A27FD2C1B25910092FF53 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		F53F6BD92C36EA500010B62A /* UISheetPresentationControllerDetentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISheetPresentationControllerDetentExtension.swift; sourceTree = "<group>"; };
+		F56EE8772C3C0571004AF500 /* CountryAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAnnotationView.swift; sourceTree = "<group>"; };
+		F56EE8792C3C202D004AF500 /* CountryPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPinView.swift; sourceTree = "<group>"; };
+		F56EE87C2C3C203F004AF500 /* CountryPinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryPinView.xib; sourceTree = "<group>"; };
+		F56EE87E2C3C27AB004AF500 /* ViewNibInstantiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNibInstantiation.swift; sourceTree = "<group>"; };
+		F56EE8802C3C372E004AF500 /* CountryAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryAnnotation.swift; sourceTree = "<group>"; };
+		F56EE8822C3D9E21004AF500 /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
 		F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCornersRoundView.swift; sourceTree = "<group>"; };
 		F5ADBE462C1C92CA00FE5791 /* ProfileCountryListSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCountryListSectionHeaderView.swift; sourceTree = "<group>"; };
 		F5ADBE482C1C92D900FE5791 /* ProfileCountryListSectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCountryListSectionHeaderView.xib; sourceTree = "<group>"; };
@@ -59,6 +74,7 @@
 		F5ADBE872C2C7AA800FE5791 /* ProfileDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewModel.swift; sourceTree = "<group>"; };
 		F5ADBE892C2DD4F800FE5791 /* ProfileCountryListShowHideMoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCountryListShowHideMoreTableViewCell.swift; sourceTree = "<group>"; };
 		F5ADBE8B2C331AF900FE5791 /* ProfileCountryListHintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCountryListHintTableViewCell.swift; sourceTree = "<group>"; };
+		F5B4CBED2C40304600BF4E2F /* NSDataAssetNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDataAssetNameExtension.swift; sourceTree = "<group>"; };
 		F5C7229F2C19C80E0078B5CF /* Travel_screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel_screen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C722A22C19C80E0078B5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5C722A42C19C80E0078B5CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +121,8 @@
 			children = (
 				F53A27FD2C1B25910092FF53 /* RoundImageView.swift */,
 				F57979C32C1B5D7B00BF4D85 /* TopCornersRoundView.swift */,
+				F56EE8772C3C0571004AF500 /* CountryAnnotationView.swift */,
+				F56EE87B2C3C2034004AF500 /* CountryPinView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,8 +141,18 @@
 			children = (
 				F53A27F72C1A11A00092FF53 /* ProfileViewController.swift */,
 				F5ADBE7B2C2C714C00FE5791 /* ProfileViewModel.swift */,
+				F56EE8802C3C372E004AF500 /* CountryAnnotation.swift */,
 			);
 			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		F56EE87B2C3C2034004AF500 /* CountryPinView */ = {
+			isa = PBXGroup;
+			children = (
+				F56EE8792C3C202D004AF500 /* CountryPinView.swift */,
+				F56EE87C2C3C203F004AF500 /* CountryPinView.xib */,
+			);
+			path = CountryPinView;
 			sourceTree = "<group>";
 		};
 		F5ADBE5E2C25C6F200FE5791 /* CountryListTableView */ = {
@@ -157,6 +185,16 @@
 			path = ProfileCountryListTableView;
 			sourceTree = "<group>";
 		};
+		F5B4CBEF2C40305A00BF4E2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F53F6BD92C36EA500010B62A /* UISheetPresentationControllerDetentExtension.swift */,
+				F56EE8822C3D9E21004AF500 /* CLLocationCoordinate2DExtension.swift */,
+				F5B4CBED2C40304600BF4E2F /* NSDataAssetNameExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F5C722962C19C80E0078B5CF = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +224,8 @@
 				F53F6BD52C3460820010B62A /* Models */,
 				F5ADBE852C2C774700FE5791 /* ViewModelsFactory.swift */,
 				F5ADBE582C2343A900FE5791 /* ViewControllerStoryboardInstantiation.swift */,
+				F56EE87E2C3C27AB004AF500 /* ViewNibInstantiation.swift */,
+				F5B4CBEF2C40305A00BF4E2F /* Extensions */,
 				F5C722A82C19C80E0078B5CF /* Main.storyboard */,
 				F5C722AB2C19C80F0078B5CF /* Assets.xcassets */,
 				F5C722AD2C19C80F0078B5CF /* LaunchScreen.storyboard */,
@@ -256,6 +296,7 @@
 				F5C722AC2C19C80F0078B5CF /* Assets.xcassets in Resources */,
 				F5C722AF2C19C80F0078B5CF /* Base in Resources */,
 				F5C722AA2C19C80E0078B5CF /* Base in Resources */,
+				F56EE87D2C3C203F004AF500 /* CountryPinView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +310,7 @@
 				F5ADBE4D2C207E6C00FE5791 /* ProfileCountryListCountryTableViewCell.swift in Sources */,
 				F53A27FE2C1B25910092FF53 /* RoundImageView.swift in Sources */,
 				F5ADBE512C20998900FE5791 /* CountryInfo.swift in Sources */,
+				F56EE87A2C3C202D004AF500 /* CountryPinView.swift in Sources */,
 				F5ADBE652C2C57F300FE5791 /* ProfileInfo.swift in Sources */,
 				F5ADBE862C2C774700FE5791 /* ViewModelsFactory.swift in Sources */,
 				F5ADBE7C2C2C714C00FE5791 /* ProfileViewModel.swift in Sources */,
@@ -279,15 +321,21 @@
 				F5ADBE4F2C2096E400FE5791 /* CountryInfoProvider.swift in Sources */,
 				F5ADBE542C20AEA100FE5791 /* CountryListTableViewController.swift in Sources */,
 				F53A27EC2C19E2510092FF53 /* ProfileDetailViewController.swift in Sources */,
+				F56EE8832C3D9E21004AF500 /* CLLocationCoordinate2DExtension.swift in Sources */,
+				F53F6BDA2C36EA500010B62A /* UISheetPresentationControllerDetentExtension.swift in Sources */,
 				F5ADBE672C2C5C4600FE5791 /* AppModel.swift in Sources */,
 				F5ADBE592C2343A900FE5791 /* ViewControllerStoryboardInstantiation.swift in Sources */,
 				F53A27FA2C1A11A00092FF53 /* ProfileViewController.swift in Sources */,
+				F56EE87F2C3C27AB004AF500 /* ViewNibInstantiation.swift in Sources */,
 				F5ADBE8A2C2DD4F800FE5791 /* ProfileCountryListShowHideMoreTableViewCell.swift in Sources */,
+				F56EE8782C3C0571004AF500 /* CountryAnnotationView.swift in Sources */,
 				F57979C42C1B5D7B00BF4D85 /* TopCornersRoundView.swift in Sources */,
 				F5ADBE8C2C331AF900FE5791 /* ProfileCountryListHintTableViewCell.swift in Sources */,
 				F5ADBE4B2C1C9D5C00FE5791 /* ProfileCountryListTableViewController.swift in Sources */,
 				F5ADBE632C25D4B300FE5791 /* ProfileCountryListTableViewModel.swift in Sources */,
+				F56EE8812C3C372E004AF500 /* CountryAnnotation.swift in Sources */,
 				F5C722A52C19C80E0078B5CF /* SceneDelegate.swift in Sources */,
+				F5B4CBEE2C40304600BF4E2F /* NSDataAssetNameExtension.swift in Sources */,
 				F5ADBE5B2C236F2600FE5791 /* CountryListTableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
